@@ -1,0 +1,13 @@
+1.
+    Time: O((V+E)logv)
+    Space: O(V+E)
+2.
+    Time: O(k + n log(n+k))
+    Space: O(n+k)
+Debriefing 
+0.  My name is Shih-Chao, Hung.
+1.  I spend 3 hours.
+2.  I will rate it between easy and moderate.
+3.  do it alon, and go to TA office hour.
+4.  Maybe 83% I think.
+5.  No, I think.

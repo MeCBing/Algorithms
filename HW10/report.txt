@@ -1,0 +1,23 @@
+1.
+    time-complexities: O(n^3)
+    space-complexities: O(n^2)
+2.
+    time-complexities: O(n^3)
+    space-complexities: O(n^2)
+3.
+    time-complexities: O(n^3 + n^2klogk)
+    space-complexities: O(n^2*k)
+    
+Debriefing 
+0. What's your name?
+    My name is Shih-Chao, Hung.
+1. Approximately how many hours did you spend on this assignment?
+    I spend 2 days to do it.
+2. Would you rate it as easy, moderate, or difficult?
+    I will rate it between moderate and difficult.
+3. Did you work on it mostly alone, or mostly with other people?
+    I work it alone and go to TA office hours and talk with other people.
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+    I feel like 50% I think.
+5. Any other comments?
+    No.

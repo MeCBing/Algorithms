@@ -1,0 +1,25 @@
+0.
+    Yes, Fibonacci is O(n) because you only have one for loop.
+1.
+    top-down : Time complexity is O(n).
+    bottom-up : Time complexity is O(n).
+2.
+    a.
+        The time complexity is O(n^2).
+    b.
+        The name of this famous number series is Catalan number.
+Debriefing 
+0.
+    My name is Shih-Chao, Hung
+1.
+    I think less than 10 hours.
+2.
+    I will rate it in diffcult because I do really know about what the different between top-down and bottom-up.
+3.
+    I work by myself, and talk the idea with my partner and TA.
+4.
+    I think 60% because it is hard for me to know the top-down and bottom-up.
+5.
+    The divid of the question in the class which about HW5 No2 question.
+6.
+    Please give us more times to do the quize.

@@ -1,0 +1,13 @@
+0.
+a
+b ( >= pivot) put list in right (insert)
+d insert-based selection sort is stable
+e 
+
+Debriefing
+
+1. I think I spend 5 hours
+2. Between easy and moderate.
+3. Do by my self, and go to TA time to check.
+4. I think maybe 83% because I am not sure my code is correct.
+5. No other comment.

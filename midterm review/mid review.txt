@@ -1,0 +1,38 @@
+1. Give real-life examples of queue, stack, priority queue, hash-table, and binary search.
+    queue:  get into the store to wait for buying something.
+    stack:  a economy class person get in the plant
+    priority queue: Emergency room patient
+    hash-table: A person who is registered for medical treatment wait on the seat.
+    binary search:
+2. How do you use a priority queue to simulate (a) a queue and (b) a stack?
+
+3. Rank the growth functions from slowest to fastest:
+   1, logn, n, nlogn, n^2, 2^n, n!, n^n
+
+4. Analyze the complexity for each of the following (use the recursion tree method), and name an instance for each:
+   (a) T(n) = 2T(n/2) + O(n)
+   (b) T(n) = 2T(n/2) + O(1)
+   (c) T(n) =  T(n/2) + O(n)
+   (d) T(n) =  T(n/2) + O(1)
+   (e) T(n) = 2T(n/2) + O(logn)
+   (f) T(n) = T(n-1) + O(n)  
+   (g) T(n) = T(n-1) + O(logn)
+
+5. Give (at least) two reasons why bubble-up is faster than bubble-down.
+
+6. The heap question will be a combination of two HW4 problems: k-way mergesort and nbestc.
+
+7. Fibonacci. There are three implementations:
+   (a) the naive recursive solution without memoization runs in time closest to:
+       n, nlogn, n^2, a^n, n^a, 2^n, n!, n^n  (where 1<a<2)
+   (b) implement the memoized recursive solution.
+       What's the space and time complexities?
+   (c) implement the O(1)-space solution (bottom-up).
+
+8. The new DP question will be very similar to unbounded and bounded knapsack.
+   It will include:
+   (a) greedy solution
+   (b) counter-example
+   (c) subproblem
+   (d) recurrence
+   (e) time and space complexity

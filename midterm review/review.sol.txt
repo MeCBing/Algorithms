@@ -1,0 +1,87 @@
+CS 325  Algorithms  FALL 2019
+SOLUTION for MIDTERM REVIEW PROBLEMS
+
+The Midterm will cover HWs 1-6 and Quizzes 1-2 (with a focus on HWs 4-6).
+
+1. Give real-life examples of queue, stack, priority queue, hash-table, and binary search.
+
+Answer:
+priority queue: emergency room
+hash-table & binary search: index at the end of each book
+
+2. How do you use a priority queue to simulate (a) a queue and (b) a stack?
+
+Answer:
+Use the pushing index itself/its negative value as the key of this unit
+to simulate a stack/queue.
+
+3. Rank the growth functions from slowest to fastest:
+   1, logn, n, nlogn, n^2, 2^n, n!, n^n
+
+Answer: just that order. :)
+
+4. Analyze the complexity for each of the following (use recursion tree method), and name an instance:
+   (a) T(n) = 2T(n/2) + O(n)
+   (b) T(n) = 2T(n/2) + O(1)
+   (c) T(n) =  T(n/2) + O(n)
+   (d) T(n) =  T(n/2) + O(1)
+   (e) T(n) = 2T(n/2) + O(logn)
+   (f) T(n) = T(n-1) + O(n)  
+   (g) T(n) = T(n-1) + O(logn)
+
+Note: you need to derive the most accurate (tightest) complexity (i.e., Big-\Theta(), even though we write Big-O()).
+
+Answer:
+(a) O(nlogn)  -- quicksort bestcase, mergesort
+(b) O(n)      -- traversing a balanced binary tree
+(c) O(n)      -- quickselect bestcase
+(d) O(logn)   -- binary search, find in balanced binary search tree
+(e) O(n)      -- heapify (see HW4 problem 0)
+(f) O(n^2)    -- quicksort/quickselect worst-case, insertion/selection sort
+(g) O(nlogn)  -- keep pushing instead of heapify
+
+5. Give (at least) two reasons why bubble-up is faster than bubble-down.
+
+Answer:
+reason 1: bubble-down needs more comparisons per step
+reason 2: bubble-down path is non-deterministic (bubble-up path is deterministic)
+
+6. The heap question will be a combination of two HW4 problems: k-way mergesort and nbestc. Read their solutions! (only the first solution for k-waymergesort and nbestc are required).
+
+7. Fibonacci. There are three implementations:
+   (a) the naive recursive solution without memoization runs in time closest to:
+       n, nlogn, n^2, a^n, n^a, 2^n, n!, n^n  (where 1<a<2)
+   (b) implement the memoized recursive solution.
+       What's the space and time complexities?
+   (c) implement the O(1)-space solution (bottom-up).
+
+Answer:
+(a) a^n. (1<a<2) actually a = 1.618...
+(b) O(n) in both time and space.
+
+def fib(n, cache={1:1, 2:1}):
+    if n in cache:
+        return cache[n]
+    cache[n] = fib(n-1, cache) + fib(n-2, cache)
+    return cache[n]
+
+(c) 
+
+def fib(n):
+    a, b = 1, 1
+    for _ in range(n-2):
+        a, b = b, a+b
+    return b
+
+8. The new DP question will be very similar to unbounded and bounded knapsack.
+   It will include:
+   (a) greedy solution
+   (b) counter-example to the greedy solution
+   (c) subproblem definition
+   (d) recurrence
+   (e) base cases
+   (f) time and space complexity
+
+9. It's possible we add a question similar to HW5 MIS (bottom-up).
+
+Only questions 6, 7, and possibly 9 will involve filling the blanks in code.

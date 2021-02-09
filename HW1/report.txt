@@ -1,0 +1,31 @@
+0. qsort
+ 
+best-case : if every choice is the middle one of the list, the time complexities will be O(n log n). This sort will be the best-case, such as thie example (quicksort([3,2,1,4,5])).
+
+average-case : Average-case is very trickey because it close the best-case time complexities, so the time complexities will be O(n log n).
+
+worst-case : if every choice is the smallest one or the biggest one, the time complexities will be O(n^2). We call it worst-case because it is the most, such as this example (quicksort([1,2,3,4,5])).
+
+1. qselect
+
+best-case: if you choose the index which answer in the first one on the list, the time complexities will be O(n).
+
+average-case: if every choice is the middle one of the list, the time complexities will be O(n) because you only need to find in left of right.
+
+worst-case: if every chooice is the biggest one or smallest one, the time complexities will be O(n^2) like triangle.
+
+2. qsort
+
+sort : time complexities is O(nlogn).
+sorted : time complexities is O(n).
+insert : time complexities is O(logn).
+search : time complexities is O(logn).
+_search : time complexities is O(logn).
+
+Debriefing 
+
+1. I spend more than 30 hours.
+2. I rate it in the middle because the code is ok, but the submitting is difficult. Also, this is my first time to learn Python.
+3. Do my self, but I go to the TA time to ask other people.
+4. I think maybe 83%.
+5. No, I think.

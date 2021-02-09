@@ -1,0 +1,65 @@
+0.
+a.
+    heapq.heappush run O(n) time to insert and do the heap for O(logn) so the time complexity is O(nlogn)
+    heapify time complexity is O(1) + O(n) = O(n)
+b.
+    my sequence is 10000
+    heapify :  0.037925004959106445
+    heappush :  1.1828362941741943
+c.
+    sort heapify :              0.03594231605529785
+    reversely-sorted heapify :  0.039884328842163086
+    sort heappush :             0.1675856113433838
+    reversely-sort heappush :   0.17157888412475586
+1. 
+a. 
+    The time complexity is O(n^2+n^2logn^2) = O(n^2(2logn + 1)) = O(n^2logn)
+b.
+    The time complexity is O(n^2+n^2) = O(2n^2) = O(n^2)
+c.
+    The time complexity is O(nlogn+nlogn+logn) = O(2nlogn + logn) = O(nlogn)
+2.
+    Time complexity is O(n.logk^n.log^k) = O(nlogn)
+3.
+    Time complexity is worst case is O(nlogk). best case and average case is O(n)
+4.
+(a) unsorted array  
+    push        O(1)
+    pop-min     O(n)
+    peak        O(n)
+    heapify     O(n)
+(b) sorted array (highest priority first)
+    push        O(n)
+    pop-min     O(n)
+    peak        O(n)
+    heapify     O(logn)
+(c) reversly sorted array (lowest priority first)
+    push        O(n)
+    pop-min     O(n)
+    peak        O(n)
+    heapify     O(logn)
+(d) linked list
+    push        O(1)
+    pop-min     O(n)
+    peak        O(n)
+    heapify     O(n)
+(e) binary heap
+    push        O(logn)
+    pop-min     O(logn)
+    peak        O(n)
+    heapify     O(1)
+Debriefing
+0.
+My name is Shih-Chao, Hung
+1.
+I spend more than 10 hours.
+2.
+I will rate it between moderate and diffcult.
+3.
+I do by myself, but I go to TA time to ask some questions.
+4.
+I think 60% because I do not know how to do the time complexity.
+5.
+I can learn new things about python in the class and TA times.
+6.
+I do not like the test.

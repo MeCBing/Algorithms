@@ -1,0 +1,33 @@
+0.
+    (1) 
+        directed:a,b,d,f,h,i
+        undirected:a,c,e,g
+    (2) 
+        dense:c,e
+        sparse:a,b,d,f,g,h,i
+    (3) 
+        cyclic:a,b,d,e
+        acyclic:c,f,g,h,i
+
+    (a) Facebook
+    (b) Twitter
+    (c) a family
+    (d) V=airports, E=direct_flights
+    (e) a mesh
+    (f) V=courses, E=prerequisites
+    (g) a tree
+    (h) V=linux_software_packages, E=dependencies
+    (i) DP subproblems for 0-1 knapsack
+
+    Can you name a very big dense graph?
+1.
+    a. Yes, BFS
+    b. Yes, DFS
+    c. Yes, but bottom-up more better.
+Debriefing 
+0.  I am Shih-Chao, Hung.
+1.  I use 3 hours.
+2.  I will rate it between easy and moderate.
+3.  I work by my self and ask TA.
+4.  83% I think.
+5.  I have the same idea with you, but my dictionary is different.
